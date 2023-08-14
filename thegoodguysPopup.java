@@ -20,7 +20,7 @@ public class thegoodguysPopup {
         capabilities.setCapability("build", "iOSLocationPopupWeb");
 
         AppiumDriver driver = new AppiumDriver(
-                new URL("https://cherryr:z0Err7sXnmGoIDOUqv9dJgvUkboBxuXUXotk3HDYTWmlt6xVnN@mobile-hub.lambdatest.com/wd/hub"),
+                new URL("https://LT_USERNAME:LT_ACCESSKEY@mobile-hub.lambdatest.com/wd/hub"),
                 capabilities);
         try {
             driver.get("https://www.thegoodguys.com.au");
